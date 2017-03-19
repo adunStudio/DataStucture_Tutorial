@@ -4,7 +4,7 @@
 #define TRUE  1
 #define FALSE 0
 
-typedef int Data;
+typedef char Data;
 
 typedef struct _node
 {
@@ -26,6 +26,6 @@ int SIsEmpty(Stack* pstack);
 
 void SPush(Stack* pstack, Data data);
 Data SPop(Stack* pstack);
-Data Speek(Stack* pstack);
+Data SPeek(Stack* pstack);
 
 #endif
