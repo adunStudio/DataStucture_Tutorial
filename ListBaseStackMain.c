@@ -10,7 +10,7 @@
  * 스택을 이용한 계산기 예제
  *
  */
- 
+
 int getOpPrec(char op);
 int whoPrecOp(char op1, char op2);
 void convToRPNExp(char exp[]);       // 중위표기식 -> 후위표기식
