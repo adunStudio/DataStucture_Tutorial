@@ -21,4 +21,9 @@ BTreeNode* GetRightSubTree(BTreeNode* bt);             // 오른쪽 서브 트�
 void MakeLeftSubTree(BTreeNode* main, BTreeNode* sub);  // 노드의 왼쪽 자식 노드로 연결
 void MakeRightSubTree(BTreeNode* main, BTreeNode* sub); // 노드의 오른쪽 자식 노드로 연결
 
+typedef void VisitFuncPtr(BTData data);
+
+void PreorderTraverse(BTreeNode* bt, VisitFuncPtr action);
+void InorderTraverse(BTreeNode* bt, VisitFuncPtr action);
+void PostorderTraverse(BTreeNode* bt, VisitFuncPtr action);
 #endif
