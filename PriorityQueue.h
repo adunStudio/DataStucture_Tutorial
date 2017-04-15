@@ -6,8 +6,8 @@
 typedef Heap PQueue;
 typedef HData PQData;
 
-void PQueueInit(PQueue* ppq, priorityComp pc);
-int PQIsEmpty(Pqueue* ppq);
+void PQueueInit(PQueue* ppq, PriorityComp pc);
+int PQIsEmpty(PQueue* ppq);
 
 void PEnqueue(PQueue* ppq, PQData data);
 PQData PDequeue(PQueue* ppq);
