@@ -1,0 +1,15 @@
+#ifndef __PRIORITY_QUEUE_C__
+#define __PRIORITY_QUEUE_C__
+
+#include "UsefulHeap.h"
+
+typedef Heap PQueue;
+typedef HData PQData;
+
+void PQueueInit(PQueue* ppq, priorityComp pc);
+int PQIsEmpty(Pqueue* ppq);
+
+void PEnqueue(PQueue* ppq, PQData data);
+PQData PDequeue(PQueue* ppq);
+
+#endif
