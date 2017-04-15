@@ -1,7 +1,7 @@
 #ifndef __BINARY_TREE_H__
 #define __BINARY_TREE_H__
 
-typedef int BTData;
+typedef char BTData;
 
 typedef struct _bTreeNode
 {
