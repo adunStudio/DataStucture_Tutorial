@@ -97,3 +97,10 @@
 - 힙 정렬: HeapSort.c
 - 퀵 정렬: QuickSort.c
 - 기수 정렬: RadixSort.c
+
+### Chapter 11. 탐색(Search) 1
+
+** 이진 탐색(Binary Search) **
+- RecursiveBinarySearch.c
+
+** 보간 탐색(Interpolation Search) **
