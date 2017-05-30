@@ -89,9 +89,10 @@
 ### Chapter 10. 정렬(Sorting)
 
 ** 단순한 정렬 알고리즘 **
-- 버블정렬: BubbleSort.c
-- 선택정렬: SelectionSort.c
-- 삽입정렬: InsertionSort.c
+- 버블 정렬: BubbleSort.c
+- 선택 정렬: SelectionSort.c
+- 삽입 정렬: InsertionSort.c
 
 ** 복잡하지만 효율적인 정렬 알고리즘 **
 - 힙 정렬: HeapSort.c
+- 퀵 정렬: QuickSort.c
