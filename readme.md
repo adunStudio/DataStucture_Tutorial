@@ -104,4 +104,4 @@
 - RecursiveBinarySearch.c
 
 ** 보간 탐색(Interpolation Search) **
-- InterporSearch.c
+- InterpolSearch.c
