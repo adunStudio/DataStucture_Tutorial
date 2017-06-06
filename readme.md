@@ -129,3 +129,11 @@
 ** 배열을 이용한 Table의 이해 **
 - UnderstandTable.c
 
+** 어느 정도 갖춰진 테이블과 해쉬 **
+- Person.h
+- Person.c
+- Slot.h
+- Table.h
+- Table.c
+- SimpleHashMain.c
+
