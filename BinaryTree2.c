@@ -60,9 +60,8 @@ void MakeRightSubTree(BTreeNode* main, BTreeNode* sub)
 void InorderTraverse(BTreeNode* bt, VisitFuncPtr action) // 이진 트리 전체를 중위 순회하는 함수
 {
     if(bt == NULL)  // bt가 NULL이면 재귀 탈출!
-    {
         return;
-    }
+
 
     InorderTraverse(bt->left, action);  // 1단계. 왼쪽 서브 트리의 순회
     action(bt->data);  // 2단계. 루트 노드의 방문
@@ -72,9 +71,8 @@ void InorderTraverse(BTreeNode* bt, VisitFuncPtr action) // 이진 트리 전체
 void PreorderTraverse(BTreeNode* bt, VisitFuncPtr action)
 {
     if(bt == NULL)  // bt가 NULL이면 재귀 탈출!
-    {
-        return;
-    }
+       return;
+
 
     action(bt->data);
     PreorderTraverse(bt->left, action);
