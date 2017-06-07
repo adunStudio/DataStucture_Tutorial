@@ -142,7 +142,7 @@
 - DLinkedList.c
 - Person.h
 - Person.c
-- Slot2.h 
+- Slot2.h
 - Table2.h
 - Table2.c
 - ChainedTableMain.c
