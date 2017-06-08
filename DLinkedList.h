@@ -6,9 +6,9 @@
 
 #include "Slot2.h"
 
-//typedef int LData;
+typedef int LData;
 
-typedef Slot LData;
+//typedef Slot LData;
 
 typedef struct _node
 {
