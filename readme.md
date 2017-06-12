@@ -174,3 +174,5 @@
 - ALGraphBFS.c
 - BFSMain.c
 
+** 크루스칼 알고리즘 **
+
